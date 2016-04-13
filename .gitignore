@@ -1,0 +1,5 @@
+roles/*
+!roles/postfix
+
+# Ansible
+tests/*.retry
