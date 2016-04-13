@@ -2,3 +2,4 @@
 # tasks file for postfix(On Alpine Linux)
 - name: Install Postfix with APK
   apk: name=postfix update_cache=yes
+  become: yes
